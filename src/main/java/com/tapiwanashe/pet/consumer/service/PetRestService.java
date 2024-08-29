@@ -15,7 +15,7 @@ public class PetRestService {
 
 
     public PetRestService( RestClient.Builder restClinetBuilder) {
-        this.restClient = restClinetBuilder.baseUrl("http://localhost:8785/api/v1/pets").build();
+        this.restClient = restClinetBuilder.baseUrl("http://10.0.21.103:8785/api/v1/pets").build();
 
     }
 
