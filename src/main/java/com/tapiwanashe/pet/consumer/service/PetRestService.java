@@ -1,22 +1,25 @@
 package com.tapiwanashe.pet.consumer.service;
 
 import java.util.List;
+
+import com.tapiwanashe.pet.consumer.config.PropertiesConfig;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
 import com.tapiwanashe.pet.consumer.dto.PetDto;
 
 @Service
+@Component
 public class PetRestService {
-
-
     private final RestClient restClient;
+    private  final PropertiesConfig propertiesConfig;
 
-
-    public PetRestService( RestClient.Builder restClinetBuilder) {
-        this.restClient = restClinetBuilder.baseUrl("http://10.0.21.103:8785/api/v1/pets").build();
-
+    public PetRestService(RestClient.Builder restClinetBuilder, PropertiesConfig propertiesConfig) {
+        this.propertiesConfig = propertiesConfig;
+        this.restClient = restClinetBuilder.baseUrl(propertiesConfig.getBaseUrl()).build();
     }
 
     public PetDto getOnePet(Long petId){
