@@ -17,13 +17,11 @@ public class RestClientConfig {
     }
 
     @Bean
-
     public RestClient restClient(){
-        RestClient newClient  = RestClient.builder()
+        return RestClient.builder()
                 .baseUrl(propertiesConfig.getBaseUrl())
                 .defaultHeader(HttpHeaders.AUTHORIZATION, "Bearer "+ tokenService.getPetAPIToken() )
                 .build();
-        return  newClient;
 
     }
 }
