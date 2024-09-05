@@ -1,6 +1,16 @@
 spring:
+  security:
+    oauth2:
+      resourceserver:
+          jwt:
+            issuer-uri: http://localhost:8080/realms/org_dev_realm
+            jwk-set-uri: http://localhost:8080/realms/org_dev_realm/protocol/openid-connect/certs
+
+
   application:
     name: pet.consumer
+
+
 
 server:
   port: 8789

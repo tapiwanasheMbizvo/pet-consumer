@@ -6,10 +6,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @SpringBootApplication
 @ConfigurationProperties
-public class Application {
+public class PetConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(PetConsumerApplication.class, args);
 	}
 
 }

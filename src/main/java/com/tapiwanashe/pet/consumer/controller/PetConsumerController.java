@@ -19,42 +19,41 @@ import com.tapiwanashe.pet.consumer.service.PetRestService;
 @RequestMapping("api/consumer/pets")
 public class PetConsumerController {
 
-        private final PetRestService petService;
+    private final PetRestService petService;
 
     public PetConsumerController(PetRestService petService) {
         this.petService = petService;
     }
 
 
+    @GetMapping
+    public ResponseEntity<List<PetDto>> getAllPets() {
 
-     @GetMapping
-    public ResponseEntity<List<PetDto>> getAllPets(){
 
-
-        return  ResponseEntity.ok().body(petService.getAllPets());
+        return ResponseEntity.ok().body(petService.getAllPets());
     }
 
-     @GetMapping("/{id}")
-    public  ResponseEntity<PetDto> getOnePet(@PathVariable Long id){
+    @GetMapping("/{id}")
+    public ResponseEntity<PetDto> getOnePet(@PathVariable Long id) {
 
 
-        return  ResponseEntity.ok().body(petService.getOnePet(id));
+        return ResponseEntity.ok().body(petService.getOnePet(id));
 
     }
 
     @PostMapping
-    public  ResponseEntity<PetDto> saveOnePet(@RequestBody PetDto petDto){
+    public ResponseEntity<PetDto> saveOnePet(@RequestBody PetDto petDto) {
 
-        return  ResponseEntity.status(HttpStatus.CREATED).body(petService.savePetDto(petDto));
+        return ResponseEntity.status(HttpStatus.CREATED).body(petService.savePetDto(petDto));
 
     }
 
     @PutMapping
-    public  ResponseEntity<PetDto> updateOnePet(@RequestBody PetDto petDto){
+    public ResponseEntity<PetDto> updateOnePet(@RequestBody PetDto petDto) {
 
-        return  ResponseEntity.status(HttpStatus.CREATED).body(petService.savePetDto(petDto));
+        return ResponseEntity.status(HttpStatus.CREATED).body(petService.savePetDto(petDto));
 
     }
 
-    
+
 }
