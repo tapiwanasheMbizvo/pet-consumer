@@ -5,13 +5,8 @@ spring:
           jwt:
             issuer-uri: ${KEY_CLOAK_ISSUER_URI}
             jwk-set-uri: ${KEY_CLOAK_ISSUER_URI}/${JWK_SET_URI}
-
-
   application:
     name: pet.consumer
-
-
-
 server:
   port: 8789
 
