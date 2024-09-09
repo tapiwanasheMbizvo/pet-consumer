@@ -6,23 +6,22 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@PropertySource("classpath:application.properties")
 public class PropertiesConfig {
 
 
-    @Value("${pet.baseUrl}")
+    @Value("${PET_API_BASE_UR}")
     private String baseUrl;
 
-    @Value("${keycloak.auth.server.url}")
+    @Value("${AUTH_SERVER_URL}")
     private String authServerUrl;
 
-    @Value("${keycloak.auth.pet.client.id}")
+    @Value("${KEY_CLOACK_PET_CLIENT_ID}")
     private String authClientId;
 
-    @Value("${keycloack.password}")
+    @Value("${KC_PET_DEV_USER}")
     private String authPassword;
 
-    @Value("${keycloack.username}")
+    @Value("${KC_PET_DEV_USER_PWD}")
     private String authUsername;
 
 

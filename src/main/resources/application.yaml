@@ -1,4 +1,15 @@
 spring:
+  profiles:
+    active: dev
+
+  cloud:
+    compatibility-verifier:
+      enabled: false
+    config:
+      label: latest
+
+  config:
+    import: configserver:http://localhost:8888
   security:
     oauth2:
       resourceserver:
@@ -6,7 +17,17 @@ spring:
             issuer-uri: ${KEY_CLOAK_ISSUER_URI}
             jwk-set-uri: ${KEY_CLOAK_ISSUER_URI}/${JWK_SET_URI}
   application:
-    name: pet.consumer
+    name: pet-consumer
 server:
   port: 8789
 
+
+keycloak:
+  auth:
+    server:
+      url: ${AUTH_SERVER_URL}
+    pet:
+      client:
+        id: ${KEY_CLOACK_PET_CLIENT_ID}
+  password:  ${KC_PET_DEV_USER}
+  username: ${KC_PET_DEV_USER_PWD}
