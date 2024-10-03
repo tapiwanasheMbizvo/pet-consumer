@@ -15,7 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tapiwanashe.pet.consumer.dto.PetDto;
 import com.tapiwanashe.pet.consumer.service.PetRestService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
+@Slf4j
 @RequestMapping("api/consumer/pets")
 public class PetConsumerController {
 
@@ -29,7 +32,7 @@ public class PetConsumerController {
     @GetMapping
     public ResponseEntity<List<PetDto>> getAllPets() {
 
-
+        log.trace("##########################RECEIVED_REQUEST##############");
         return ResponseEntity.ok().body(petService.getAllPets());
     }
 

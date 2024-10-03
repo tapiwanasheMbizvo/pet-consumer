@@ -9,7 +9,7 @@ spring:
       label: latest
 
   config:
-    import: configserver:http://localhost:8888
+    import: configserver:${CONFIG_SERVER_URL}
   security:
     oauth2:
       resourceserver:

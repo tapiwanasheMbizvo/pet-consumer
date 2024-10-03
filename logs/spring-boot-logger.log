@@ -1,0 +1,73 @@
+2024-10-03 10:49:35,037 INFO o.s.b.StartupInfoLogger [main] Starting PetConsumerApplication using Java 21.0.4 with PID 449957 (/home/developer/dev/pet-consumer/target/classes started by developer in /home/developer/dev/pet-consumer)
+2024-10-03 10:49:35,038 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-10-03 10:49:35,039 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2024-10-03 10:49:35,067 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:49:35,067 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[default], label=latest, version=null, state=null
+2024-10-03 10:49:35,068 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:49:35,068 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[dev], label=latest, version=null, state=null
+2024-10-03 10:49:35,068 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:49:35,068 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[default], label=latest, version=null, state=null
+2024-10-03 10:49:35,831 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=6a8fcefe-2cd2-3840-a728-fd57ddc2e938
+2024-10-03 10:49:36,016 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8789 (http)
+2024-10-03 10:49:36,025 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8789"]
+2024-10-03 10:49:36,028 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-10-03 10:49:36,028 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-03 10:49:36,063 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-03 10:49:36,064 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 994 ms
+2024-10-03 10:49:36,189 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################GETTING_TOKEN##############
+2024-10-03 10:49:36,234 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################RESPONSE##############
+2024-10-03 10:49:36,662 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-03 10:49:36,937 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8789"]
+2024-10-03 10:49:36,947 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8789 (http) with context path '/'
+2024-10-03 10:49:36,963 INFO o.s.b.StartupInfoLogger [main] Started PetConsumerApplication in 2.837 seconds (process running for 3.082)
+2024-10-03 10:50:26,725 INFO o.s.b.StartupInfoLogger [main] Starting PetConsumerApplication using Java 21.0.4 with PID 451790 (/home/developer/dev/pet-consumer/target/classes started by developer in /home/developer/dev/pet-consumer)
+2024-10-03 10:50:26,726 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-10-03 10:50:26,727 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2024-10-03 10:50:26,758 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:50:26,758 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[default], label=latest, version=null, state=null
+2024-10-03 10:50:26,758 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:50:26,759 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[dev], label=latest, version=null, state=null
+2024-10-03 10:50:26,759 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:50:26,759 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[default], label=latest, version=null, state=null
+2024-10-03 10:50:27,540 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=6a8fcefe-2cd2-3840-a728-fd57ddc2e938
+2024-10-03 10:50:27,741 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8789 (http)
+2024-10-03 10:50:27,750 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8789"]
+2024-10-03 10:50:27,752 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-10-03 10:50:27,753 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-03 10:50:27,789 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-03 10:50:27,798 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1029 ms
+2024-10-03 10:50:27,923 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################GETTING_TOKEN##############
+2024-10-03 10:50:27,924 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################GETTING_TOKEN##############
+2024-10-03 10:50:27,970 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################RESPONSE##############<200 OK OK,{access_token=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxbWVkYVRpdGxISHg2a3VJR2xKRDJ3ajBpNVBiRW9aVUJ0LXd0MXZyRGxjIn0.eyJleHAiOjE3Mjc5NDU3MjcsImlhdCI6MTcyNzk0NTQyNywianRpIjoiZGYzZGE4OTgtYjYyYi00N2RlLWEyNDEtOWYwMTlmNmFiMjE3IiwiaXNzIjoiaHR0cDovLzEwLjAuMC4xMDI6ODA4MS9yZWFsbXMvaG9tZS1zZXJ2ZXItYXBwcyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI4Njc4OTE2Ny1jNzE5LTRlYzMtODMzMy1mM2NhYTkxY2QzZTgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJob21lLXNlcnZlci1hcHBzIiwic2lkIjoiMzFhMTE1ZDItODU3My00ZTIwLWE3MWEtMGZjMjRiNjAyOWNiIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1ob21lLXNlcnZlci1hcHBzIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6ImFwcCB1c2VyIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiYXBwdXNlciIsImdpdmVuX25hbWUiOiJhcHAiLCJmYW1pbHlfbmFtZSI6InVzZXIiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.FddziXsEKIVBROIj_EpS4MWkGsmWEszuI5R7nhdwKsqYZX9H-y8qO5o4wiUO0-cQaMWhYCbqpwaAEro8JrLUyXghq64y8lwjfAxB4xZkYesADhDh16xtJKIZfd_P9-ageKH5DiHFbYCezflq8i9qUDi1GrbW6HkbwrYKwyGWfvT20GrS2d71Zym62gj_A2n8mUnqsfwD8vvnPIYetDJpvIxmYf2v1aovJiDlyZYqjLyHoO6ChnAgeXCZkQBl28Krrqmsz_ip6aCXlpUjacuPlROLOXPHW8FLuAOK5a7xtV80wwy1z-5ORKyJ5WH6qsEztrHxWXeDTOjq4f8Yt92Dpg, expires_in=300, refresh_expires_in=1800, refresh_token=eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhZGZiNzE5Yy0xZjkzLTQxNzUtODgwOS0wYWU4YTQ4MGRmMjgifQ.eyJleHAiOjE3Mjc5NDcyMjcsImlhdCI6MTcyNzk0NTQyNywianRpIjoiYTg5NGY0OTgtYWY3NC00NGYxLTg4MDQtZDU5MGY0NjdlN2Y3IiwiaXNzIjoiaHR0cDovLzEwLjAuMC4xMDI6ODA4MS9yZWFsbXMvaG9tZS1zZXJ2ZXItYXBwcyIsImF1ZCI6Imh0dHA6Ly8xMC4wLjAuMTAyOjgwODEvcmVhbG1zL2hvbWUtc2VydmVyLWFwcHMiLCJzdWIiOiI4Njc4OTE2Ny1jNzE5LTRlYzMtODMzMy1mM2NhYTkxY2QzZTgiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiaG9tZS1zZXJ2ZXItYXBwcyIsInNpZCI6IjMxYTExNWQyLTg1NzMtNGUyMC1hNzFhLTBmYzI0YjYwMjljYiIsInNjb3BlIjoiZW1haWwgYmFzaWMgcHJvZmlsZSBhY3Igd2ViLW9yaWdpbnMgcm9sZXMifQ.7Ts6VJ-HqGzgfQ-CCTgFB6UdgrZEnGsMKO4pqX_eFs0cJ-HOfkWLf-99ydEE3OARcLDwM_y9bhLfDdsikxoe1A, token_type=Bearer, not-before-policy=0, session_state=31a115d2-8573-4e20-a71a-0fc24b6029cb, scope=email profile},[Cache-Control:"no-store", Pragma:"no-cache", content-length:"2243", Content-Type:"application/json", Referrer-Policy:"no-referrer", Strict-Transport-Security:"max-age=31536000; includeSubDomains", X-Content-Type-Options:"nosniff", X-Frame-Options:"SAMEORIGIN", X-XSS-Protection:"1; mode=block"]>
+2024-10-03 10:50:28,384 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-03 10:50:28,663 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8789"]
+2024-10-03 10:50:28,673 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8789 (http) with context path '/'
+2024-10-03 10:50:28,688 INFO o.s.b.StartupInfoLogger [main] Started PetConsumerApplication in 2.69 seconds (process running for 2.931)
+2024-10-03 10:52:05,520 INFO o.a.j.l.DirectJDKLog [http-nio-8789-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03 10:52:05,521 INFO o.s.w.s.FrameworkServlet [http-nio-8789-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-10-03 10:52:05,522 INFO o.s.w.s.FrameworkServlet [http-nio-8789-exec-1] Completed initialization in 1 ms
+2024-10-03 10:52:05,613 TRACE c.t.p.c.c.PetConsumerController [http-nio-8789-exec-1] ##########################RECEIVED_REQUEST##############
+2024-10-03 10:52:05,613 TRACE c.t.p.c.s.PetRestService [http-nio-8789-exec-1] ##########################sending_request##############
+2024-10-03 10:58:37,038 INFO o.s.b.StartupInfoLogger [main] Starting PetConsumerApplication v0.0.1-SNAPSHOT using Java 21.0.4 with PID 469462 (/home/developer/dev/pet-consumer/target/pet.consumer-0.0.1-SNAPSHOT.jar started by developer in /home/developer/dev/pet-consumer)
+2024-10-03 10:58:37,040 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-10-03 10:58:37,040 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2024-10-03 10:58:37,083 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:58:37,084 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[default], label=latest, version=null, state=null
+2024-10-03 10:58:37,084 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:58:37,084 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[dev], label=latest, version=null, state=null
+2024-10-03 10:58:37,084 INFO o.s.b.l.DeferredLog [main] Fetching config from server at : http://10.0.0.102:30905
+2024-10-03 10:58:37,084 INFO o.s.b.l.DeferredLog [main] Located environment: name=pet-consumer, profiles=[default], label=latest, version=null, state=null
+2024-10-03 10:58:38,367 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=6a8fcefe-2cd2-3840-a728-fd57ddc2e938
+2024-10-03 10:58:38,637 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8789 (http)
+2024-10-03 10:58:38,648 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8789"]
+2024-10-03 10:58:38,651 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-10-03 10:58:38,652 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-03 10:58:38,684 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-03 10:58:38,685 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1598 ms
+2024-10-03 10:58:38,876 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################GETTING_TOKEN##############
+2024-10-03 10:58:38,877 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################GETTING_TOKEN##############
+2024-10-03 10:58:38,931 TRACE c.t.p.c.s.SecurityTokenService [main] ##########################RESPONSE##############<200 OK OK,{access_token=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxbWVkYVRpdGxISHg2a3VJR2xKRDJ3ajBpNVBiRW9aVUJ0LXd0MXZyRGxjIn0.eyJleHAiOjE3Mjc5NDYyMTgsImlhdCI6MTcyNzk0NTkxOCwianRpIjoiOGJmOTlkNmItNDExZi00NTczLWI1ZmUtODYxOWY3NzVhMmY1IiwiaXNzIjoiaHR0cDovLzEwLjAuMC4xMDI6ODA4MS9yZWFsbXMvaG9tZS1zZXJ2ZXItYXBwcyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI4Njc4OTE2Ny1jNzE5LTRlYzMtODMzMy1mM2NhYTkxY2QzZTgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJob21lLXNlcnZlci1hcHBzIiwic2lkIjoiMmFhMjUzMDgtMDRhOC00Y2EwLWIyMzUtNzQzZjFlMmQxMDk5IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1ob21lLXNlcnZlci1hcHBzIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6ImFwcCB1c2VyIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiYXBwdXNlciIsImdpdmVuX25hbWUiOiJhcHAiLCJmYW1pbHlfbmFtZSI6InVzZXIiLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.H6Zo2G8XDV4l2H83LJp8fe8nl1AzGIH3gyiw6i1pJS6L_cssc_utpNaAvFMRzJFJmX3zq48GHjbFXCpgR-9z6V1oT0BOp0nL3lPGx2l2JlGDMHOkdzouadEgxJD4dahw8-qNfbrEVytvtcu4d1YJK9yKESJ2qUEsza8RuPxfdPIgO5P5H7bI4uEb4YZadyaN5rDzUBkiACE033JDi0-GllPjSbJNElr3ibVIVAU-EzL6TwYFyyhcegxnnVR73lHCBKc7joBcuWd6cngiAoxkqcI9jF3xv_g5mhykA7VUFkJXjSfYWOIiqlbNlYeubP7s0cu8hAFzMzANPDfQ9i3yXQ, expires_in=300, refresh_expires_in=1800, refresh_token=eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhZGZiNzE5Yy0xZjkzLTQxNzUtODgwOS0wYWU4YTQ4MGRmMjgifQ.eyJleHAiOjE3Mjc5NDc3MTgsImlhdCI6MTcyNzk0NTkxOCwianRpIjoiNzFlMjQ0ODItYzNlNS00ZGIyLWFlZTYtMjFlMGY0NGZhNTJiIiwiaXNzIjoiaHR0cDovLzEwLjAuMC4xMDI6ODA4MS9yZWFsbXMvaG9tZS1zZXJ2ZXItYXBwcyIsImF1ZCI6Imh0dHA6Ly8xMC4wLjAuMTAyOjgwODEvcmVhbG1zL2hvbWUtc2VydmVyLWFwcHMiLCJzdWIiOiI4Njc4OTE2Ny1jNzE5LTRlYzMtODMzMy1mM2NhYTkxY2QzZTgiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiaG9tZS1zZXJ2ZXItYXBwcyIsInNpZCI6IjJhYTI1MzA4LTA0YTgtNGNhMC1iMjM1LTc0M2YxZTJkMTA5OSIsInNjb3BlIjoiZW1haWwgYmFzaWMgcHJvZmlsZSBhY3Igd2ViLW9yaWdpbnMgcm9sZXMifQ.8_Tg3dYhjM7-2gu-LjfgAyCr_PIeUc5R42DoNaDJMVuui-Im2gBxcdpP7VkxII77Uehd3o7-BENdYDNAnozjNQ, token_type=Bearer, not-before-policy=0, session_state=2aa25308-04a8-4ca0-b235-743f1e2d1099, scope=email profile},[Cache-Control:"no-store", Pragma:"no-cache", content-length:"2243", Content-Type:"application/json", Referrer-Policy:"no-referrer", Strict-Transport-Security:"max-age=31536000; includeSubDomains", X-Content-Type-Options:"nosniff", X-Frame-Options:"SAMEORIGIN", X-XSS-Protection:"1; mode=block"]>
+2024-10-03 10:58:39,501 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-03 10:58:39,899 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8789"]
+2024-10-03 10:58:39,911 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8789 (http) with context path '/'
+2024-10-03 10:58:39,931 INFO o.s.b.StartupInfoLogger [main] Started PetConsumerApplication in 3.981 seconds (process running for 4.433)

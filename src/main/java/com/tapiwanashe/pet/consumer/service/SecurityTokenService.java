@@ -1,7 +1,9 @@
 package com.tapiwanashe.pet.consumer.service;
 
 
-import com.tapiwanashe.pet.consumer.config.PropertiesConfig;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -9,12 +11,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.tapiwanashe.pet.consumer.config.PropertiesConfig;
+
+import lombok.extern.slf4j.Slf4j;
 
 
 @Service
-
+@Slf4j
 public class SecurityTokenService {
 
     private final RestTemplate restTemplate;
@@ -41,7 +44,7 @@ public class SecurityTokenService {
         bodyMap.put("username", propertiesConfig.getAuthUsername());
         bodyMap.put("password", propertiesConfig.getAuthPassword());
 
-
+        log.trace("##########################GETTING_TOKEN##############");
         StringBuilder bodyBuilder = new StringBuilder();
         bodyMap.forEach((key, value) -> {
             if (bodyBuilder.length() != 0) {
@@ -49,11 +52,11 @@ public class SecurityTokenService {
             }
             bodyBuilder.append(key).append("=").append(value);
         });
-
+        log.trace("##########################GETTING_TOKEN##############");
         HttpEntity<String> requestEntity = new HttpEntity<>(bodyBuilder.toString(), headers);
 
         ResponseEntity<Map> response = restTemplate.exchange(url, HttpMethod.POST, requestEntity, Map.class);
-
+        log.trace("##########################RESPONSE##############"+ response);
         if (response.getStatusCode().is2xxSuccessful()) {
 
             return response.getBody().get("access_token").toString();
